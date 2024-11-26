@@ -1,5 +1,15 @@
 # 💫 About Me:
-🔭 I’m currently working on a personal finance app called BetterWallet, built in Flutter using FlutterFlow. It's designed to help users manage their budgets, track expenses, and improve their financial health.<br><br>👯 I’m looking to collaborate on projects related to AI, data, Python, and tech innovations. If you're passionate about these fields, let's connect!<br><br>🤝 I’m looking for help with enhancing my skills in AI, data science, and exploring new technologies. Always open to learning from others and growing together.<br><br>🌱 I’m currently learning AI, data science, databases, Flutter, and anything that can boost my skills as a Data and AI Engineering student.<br><br>💬 Ask me about AI (I know a few things), Python, JavaScript, microservices, Docker (basic understanding), PHP, web development, SQL, data analysis, or even multimedia editing.<br><br>⚡ Fun fact: I love languages! I learned English, and now I’m working on German. Learning new things is my passion, whether it's in tech or more topics!
+🔭 I’m currently working on projects such as Avantra Wallet, a personal finance app built using Firebase and FlutterFlow, aimed at helping users streamline financial planning, track expenses, and set goals effectively.
+
+👯 I’m looking to collaborate on projects related to data analytics, machine learning, AI, Python development, and innovative tech solutions. If you're passionate about leveraging data for impactful insights, let’s connect!
+
+🤝 I’m looking for help with enhancing my skills in advanced dashboards, workflow automation, and predictive analytics. Always eager to learn and grow alongside like-minded individuals.
+
+🌱 I’m currently learning Power BI, machine learning (LSTM, CNNs), advanced SQL concepts, and Flutter to further my abilities as a Data Engineer and AI enthusiast.
+
+💬 Ask me about data visualization, Python, SQL, Power BI, data analysis, or creating impactful dashboards. I also have experience with Docker, Neo4j, PHP, JavaScript, and multimedia editing.
+
+⚡ Fun fact: I’m passionate about languages! I’m fluent in Spanish and English (C2 - EF SET), and currently learning German (A1). My curiosity drives me to explore and excel in both tech and personal growth.
 
 
 ## 🌐 Socials:
