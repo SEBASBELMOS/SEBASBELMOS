@@ -1,5 +1,5 @@
 # ⚡ About Me:
-💻 I’m currently working on projects such as Avantra Wallet, a personal finance app built using Firebase and FlutterFlow, aimed at helping users streamline financial planning, track expenses, and set goals effectively.
+💻 I’m currently working on projects such as [Avantra Wallet](https://avantrawallet.flutterflow.app/), a personal finance app built using Firebase and FlutterFlow, aimed at helping users streamline financial planning, track expenses, and set goals effectively.
 
 🤖 I’m looking to collaborate on projects related to data analytics, machine learning, AI, Python development, and innovative tech solutions. If you're passionate about leveraging data for impactful insights, let’s connect!
 
