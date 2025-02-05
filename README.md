@@ -11,7 +11,7 @@
 
 ⚡ Fun fact: I’m passionate about languages! I’m fluent in Spanish and English (C2 - EF SET), and currently learning German (A1). My curiosity drives me to explore and excel in both tech and personal growth.
 
-[![LinkedIn](https://i.sstatic.net/gVE0j.png)(https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/sebasbelmos) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/sebasbelmos) 
 
 
 # 💻 Tech Stack:
