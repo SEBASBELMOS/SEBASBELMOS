@@ -5,7 +5,7 @@
 
 🤝 I’m looking for help with enhancing my skills in advanced dashboards, workflow automation, and predictive analytics. Always eager to learn and grow alongside like-minded individuals.
 
-🌱 I’m currently learning Power BI, machine learning (LSTM, CNNs), advanced SQL concepts, and Flutter to further my abilities as a Data Engineer and AI enthusiast.
+🌱 I’m currently learning Power BI, machine learning (LSTM, CNNs) and advanced SQL concepts to further my abilities as a Data Engineer and AI enthusiast.
 
 💬 Ask me about data visualization, Python, SQL, Power BI, data analysis, or creating impactful dashboards. I also have experience with Docker, Neo4j, PHP, JavaScript, and multimedia editing.
 
