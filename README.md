@@ -1,24 +1,58 @@
-# ⚡ About Me:
-💻 I’m currently working on projects such as [Avantra Wallet](https://avantrawallet.flutterflow.app/), a personal finance app built using Firebase and FlutterFlow, aimed at helping users streamline financial planning, track expenses, and set goals effectively.
+# ⚡ About Me
+Hi, I’m **Sebastian** — a **Data Analyst focused on dashboards, ETL, and automation**, with experience turning messy data into clear insights and repeatable systems.
 
-🤖 I’m looking to collaborate on projects related to data analytics, machine learning, AI, Python development, and innovative tech solutions. If you're passionate about leveraging data for impactful insights, let’s connect!
+<p align="left">
+  <a href="https://www.linkedin.com/in/sebasbelmos/">
+    <img src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://www.youtube.com/channel/UCeYaQhjA-N6YVd6RNTdhBeA">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
+  </a>
+</p>
 
-💡 I’m looking for help with enhancing my skills in advanced dashboards, workflow automation, and predictive analytics. Always eager to learn and grow alongside like-minded individuals.
+💻 **What I do**
+- Build **Power BI dashboards** and KPI reporting for decision-making.
+- Create **ETL/data pipelines** using **Python + SQL** to clean and structure data.
+- Design **automation workflows** (e.g., **n8n**, forms, email/CRM flows) to reduce manual work and improve internal processes.
+- Apply **AI/NLP** when it adds real business value.
 
-🧠 I’m currently learning Power BI, machine learning (LSTM, CNNs) and advanced SQL concepts to further my abilities as a Data Engineer and AI enthusiast.
+🤝 **Open to collaborate on**
+- Data analytics & BI (Power BI, reporting, KPI frameworks)
+- ETL & data pipelines (Python/SQL)
+- Automation & integrations (n8n, process improvement)
+- Practical ML/AI projects with clear outcomes
 
-💬 Ask me about data visualization, Python, SQL, Power BI, data analysis, or creating impactful dashboards. I also have experience with Docker, Neo4j, PHP, JavaScript, and multimedia editing.
+🧠 **Currently improving**
+- Advanced **Power BI** (data modeling, DAX, performance, storytelling)
+- **Advanced SQL** (optimization, analytics patterns)
+- Practical ML/AI (time series, NLP, forecasting)
 
-⚡ Fun fact: I’m passionate about languages! I’m fluent in Spanish and English (C2 - EF SET), and currently learning German (A1). My curiosity drives me to explore and excel in both tech and personal growth.
+💬 **Ask me about**
+Power BI dashboards, Python, SQL, ETL pipelines, data cleaning, workflow automation, and making data useful for teams.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/sebasbelmos) 
+⚡ **Fun fact**
+I love languages: **Spanish (native)**, **English (C2 - EF SET)**, and currently learning **German (A1–A2)**.
 
+---
 
-# 💻 Tech Stack:
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) 
-
-
+# 💻 Tech Stack
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![SQL](https://img.shields.io/badge/SQL-000000?style=for-the-badge&logo=postgresql&logoColor=white)
+![Power BI](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
+---
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=SEBASBELMOS&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
 
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
