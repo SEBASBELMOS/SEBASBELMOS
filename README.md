@@ -1,58 +1,160 @@
-# ⚡ About Me
-Hi, I’m **Sebastian** — a **Data Analyst focused on dashboards, ETL, and automation**, with experience turning messy data into clear insights and repeatable systems.
+# ⚡ Hi, I'm Sebastian
+
+**Data & AI builder / student** building dashboards, ETL pipelines, automation workflows and practical AI systems for founders and small teams — and explaining them clearly. Currently finishing my Data & AI Engineering degree.
+
+I like turning messy data, unclear processes and complex technical ideas into **clean insights, reliable systems and simple explanations**. Alongside my technical work, I teach Spanish online to international students, which has sharpened how I communicate, structure ideas and explain technical concepts to any level.
 
 <p align="left">
   <a href="https://www.linkedin.com/in/sebasbelmos/">
-    <img src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   <a href="https://www.youtube.com/channel/UCeYaQhjA-N6YVd6RNTdhBeA">
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
   </a>
 </p>
 
-💻 **What I do**
-- Build **Power BI dashboards** and KPI reporting for decision-making.
-- Create **ETL/data pipelines** using **Python + SQL** to clean and structure data.
-- Design **automation workflows** (e.g., **n8n**, forms, email/CRM flows) to reduce manual work and improve internal processes.
-- Apply **AI/NLP** when it adds real business value.
+---
 
-🤝 **Open to collaborate on**
-- Data analytics & BI (Power BI, reporting, KPI frameworks)
-- ETL & data pipelines (Python/SQL)
-- Automation & integrations (n8n, process improvement)
-- Practical ML/AI projects with clear outcomes
+## 💻 What I Do
 
-🧠 **Currently improving**
-- Advanced **Power BI** (data modeling, DAX, performance, storytelling)
-- **Advanced SQL** (optimization, analytics patterns)
-- Practical ML/AI (time series, NLP, forecasting)
-
-💬 **Ask me about**
-Power BI dashboards, Python, SQL, ETL pipelines, data cleaning, workflow automation, and making data useful for teams.
-
-⚡ **Fun fact**
-I love languages: **Spanish (native)**, **English (C2 - EF SET)**, and currently learning **German (A1–A2)**.
+- Build **ETL pipelines and star-schema data warehouses** with **Python, SQL, PostgreSQL and Apache Airflow**.
+- Design **Power BI & Looker Studio dashboards** and KPI reports for decision-making.
+- Build **data pipelines** and apply practical ML/statistics concepts from university and portfolio projects.
+- Build **AI orchestration and automation workflows** with **n8n, Claude Code, Cursor, ChatGPT and prompt engineering** to reduce manual, repetitive work.
+- Use **multi-agent workflows** with documentation and human-in-the-loop review to prototype, debug and document faster.
+- Explain technical ideas clearly — a teaching habit I bring to docs and dashboards.
 
 ---
 
-# 💻 Tech Stack
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![SQL](https://img.shields.io/badge/SQL-000000?style=for-the-badge&logo=postgresql&logoColor=white)
-![Power BI](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
+## 🚀 Featured Projects
+
+### GeoVision-CLIP Cali
+**[🌐 Live App](https://analiticalastdance-geovision-cali-frontend.hf.space)** · **[📑 API Docs](https://analiticalastdance-geovision-cali-api.hf.space/docs)** · **[💻 Code](https://github.com/SEBASBELMOS/GeoVision-CLIP-Cali)**
+
+> *A live web map that forecasts air pollution across the city of Cali, days ahead.*
+
+End-to-end GeoAI system that estimates air pollution (**NO₂, SO₂, O₃**) across ~**380 km²** of Cali, Colombia. The pipeline combines RemoteCLIP + sparse autoencoders, a bidirectional ConvLSTM and 3D ST-Kriging residual correction over a **1,920-cell grid**, with T+1 / T+3 / T+7 day forecasts and uncertainty quantification. University final project, built by a **team of 3**.
+
+**My role:** software architecture, FastAPI backend (15 REST endpoints), React + Leaflet frontend visualisation (1,920 cells rendered on canvas), Docker multi-stage build, pytest suite, DevOps, documentation and Hugging Face Spaces deployment, with hands-on exposure to the project's geospatial, statistical and ML components.
+
+**Highlights**
+- **R² = 0.807** (spatial LOO-CV for SO₂ + O₃, after residual correction).
+- Processed **93.1 GB of Sentinel-2 imagery**; fully reproducible (SEED=42, MD5-verified).
+- Live public **API + SPA** on Hugging Face Spaces, with **26/26 backend tests passing**.
+
+**Tech:** Python · PyTorch · RemoteCLIP · ConvLSTM · PyKrige · FastAPI · React · TypeScript · Leaflet · Docker · Hugging Face Spaces
+
 ---
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=SEBASBELMOS&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
 
+### [Spotify Analytics ETL Pipeline](https://github.com/SEBASBELMOS/spotify-analytics-etl-pipeline)
+> *Turned 114k+ messy music records into clean dashboards on song and award trends.*
 
+Production-ready ETL pipeline integrating **114,000+ Spotify tracks** and **4,810 Grammy records** into a unified analytics platform. Automated extraction, cleaning and transformation with **Apache Airflow** (daily scheduling, monitoring, error handling), deployed on **GCP** with Docker and PostgreSQL. Reduced duplicate records by **28.6%** and generated **81,941 enriched entries**, surfaced through Power BI dashboards.
+
+**Tech:** Python · Apache Airflow · PostgreSQL · GCP · Docker · Power BI
+
+---
+
+### [Global Happiness Prediction Pipeline](https://github.com/SEBASBELMOS/world-happiness-ml-pipeline)
+> *A model that predicts how happy a country is from its economic and social data.*
+
+End-to-end ML pipeline predicting national happiness scores across **164 countries** (World Happiness Report 2015–2019). Evaluated four regression models and selected **Random Forest (R² = 0.8639, RMSE = 0.415)**, with a real-time **Apache Kafka** streaming architecture processing predictions at sub-second latency and PostgreSQL audit trails capturing inputs and outputs.
+
+**Tech:** Python · scikit-learn · Apache Kafka · PostgreSQL · Docker · Pandas
+
+---
+
+### [LinkedIn Job Postings ETL](https://github.com/SEBASBELMOS/LinkedIn-Jobs-Posting)
+> *Turned 123k+ job postings into clean dashboards on hiring trends, skills and salaries.*
+
+End-to-end data engineering pipeline over **123,000+ job postings**: ingestion from Kaggle, cleaning, and a **star-schema data warehouse** (fact + dimension tables) in **PostgreSQL** (cloud-deployable on GCP, AWS RDS or Supabase). The ETL is orchestrated with **Apache Airflow** (raw → cleaned → analytics layers) and surfaced through Power BI dashboards on job trends, salaries and company patterns.
+
+**Tech:** Python · Pandas · PostgreSQL · Apache Airflow · Star Schema · Power BI
+
+---
+
+### [Data-Driven Hiring ETL](https://github.com/SEBASBELMOS/data-driven_hiring_analysis)
+> *Analysed 50k job applicants to reveal who gets hired and why.*
+
+ETL and analytics workflow over **50,000 candidate records**: SQLAlchemy-based ingestion into PostgreSQL, EDA, and a cleaned analytics dataset. Surfaced data-quality issues and a selective hiring funnel (**~13% hired**), with insights by seniority, technology and geography.
+
+**Tech:** Python · SQLAlchemy · PostgreSQL · Poetry · Pandas · Power BI
+
+---
+
+### [Higher Education Graduates in Colombia](https://lookerstudio.google.com/reporting/fbf76da4-9963-4152-937b-44ca32ae93b8/page/p_uounofjj1c)
+> *An interactive dashboard showing what and where Colombians graduate.*
+
+**[Live Looker Studio dashboard](https://lookerstudio.google.com/reporting/fbf76da4-9963-4152-937b-44ca32ae93b8/page/p_uounofjj1c)** on official **SNIES / datos.gov.co** data, analysing Colombian higher education graduates from **2016 to 2020** by field of knowledge, education level and department. ([source repo](https://github.com/SEBASBELMOS/colombia-graduates-dashboard))
+
+**Tech:** Looker Studio · SNIES / datos.gov.co · Data Visualisation
+
+---
+
+### [Abodi ML — Legal-Term Risk Predictor](https://github.com/SEBASBELMOS/abodi_ml)
+> *Flags court cases at risk of missing legal deadlines, so lawyers don't.*
+
+End-to-end **MLOps** module for **Abodi**, a real Colombian LegalTech app. An **XGBoost** classifier flags judicial processes at risk of legal-term expiry — the deadlines lawyers can't afford to miss. Trained on **synthetic data** (modelled on Colombian judicial business rules), it reaches **F1 = 0.89 / AUC-ROC = 0.91** and ships with the full stack: **MLflow** tracking + model registry, **FastAPI** serving, **Docker Compose**, **Prometheus + Grafana** monitoring and **GitHub Actions** CI/CD. Designed to plug into Abodi's backend as a future production feature.
+
+**Tech:** Python · XGBoost · scikit-learn · FastAPI · MLflow · Docker · Prometheus · Grafana · GitHub Actions
+
+---
+
+### More projects & contributions
+- **[DeutschLernen](https://github.com/SEBASBELMOS/deutschlernen)** — Full-stack AI web app for learning German: Express backend, vanilla-JS frontend, LLM-powered chat & correction, AssemblyAI voice input and a Leitner spaced-repetition system.
+- **[Sports Data API (Neo4j)](https://github.com/SEBASBELMOS/sports-graph-api)** — Node.js REST API on a Neo4j graph database, **+40% query efficiency**.
+- **Datathon del Pacífico** — *finalists*, analysing Cali's MIO public-transport data for operational efficiency.
+- **JurisIntel (LegalTech, volunteer)** — NLP pipelines for legal-document analysis, case-monitoring automation and an AI legal chatbot.
+- **[F1 Lap Time Analysis](https://github.com/SEBASBELMOS/F1-Analysis-Project)** — Streamlit dashboard on 2023 Monza GP telemetry.
+
+---
+
+## 🧰 Core Stack
+
+**Core Data & Analytics** — Python · Pandas · NumPy · SQL · PostgreSQL · ETL · Apache Airflow · Data Warehousing (Star Schema) · Data Cleaning · Dashboarding · Documentation
+
+**Business Intelligence** — Power BI · Looker Studio · KPI Reporting · Dashboard Design · Data Storytelling
+
+**Hands-on Exposure** — Machine Learning · Statistics · Deep Learning · Geospatial Data · Remote Sensing · React · TypeScript · Node.js · Neo4j · Apache Kafka · Docker
+
+**Backend, Frontend & Deployment** — FastAPI · GCP · AWS · GitHub · Hugging Face Spaces
+
+**AI Orchestration & Automation** — n8n · Claude Code · Cursor · ChatGPT · Prompt Engineering · Multi-agent workflows
+
+---
+
+## 🗣️ Teaching & Communication
+
+I teach Spanish online to international students in English, Spanish and beginner-friendly German. It's made me good at breaking complex ideas into clear steps, adapting to different levels and communicating across cultures — the same skills I bring to documentation, dashboards and client-facing work.
+
+---
+
+## 🧠 Currently Sharpening
+
+- Data modelling, SQL and analytics workflows.
+- Production habits: testing, documentation, deployment and maintainability.
+- Practical ML/statistics understanding from university and portfolio projects.
+- AI orchestration workflows: using multi-agent systems, documentation and human-in-the-loop review to plan, prototype, debug and ship faster.
+
+---
+
+## 🤝 Open to Collaborate On
+
+Data analytics & BI dashboards · ETL and data pipelines · workflow automation · AI orchestration productivity tools · data projects with practical ML/statistics components · geospatial data visualisation · educational content around data, AI and technology.
+
+---
+
+## 🌍 Languages
+
+- **Spanish** — Native
+- **English** — C2 (EF SET)
+- **German** — A2, currently learning
+
+---
+
+## 📫 Contact
+
+Happy to connect if you're into data, automation, AI tooling, education or collaboration.
+
+**LinkedIn:** [linkedin.com/in/sebasbelmos](https://www.linkedin.com/in/sebasbelmos/)  
+**YouTube:** [YouTube Channel](https://www.youtube.com/channel/UCeYaQhjA-N6YVd6RNTdhBeA)
