@@ -95,7 +95,7 @@ ETL and analytics workflow over **50,000 candidate records**: SQLAlchemy-based i
 ---
 
 ### [Abodi ML · Legal-Term Risk Predictor](https://github.com/SEBASBELMOS/abodi_ml)
-> *Flags court cases at risk of missing legal deadlines, so lawyers don't.*
+> *Detecta procesos judiciales en riesgo de vencer términos para que los abogados actúen a tiempo. Flags court cases at risk of missing legal deadlines so lawyers can act first.*
 
 End-to-end **MLOps** module for **Abodi**, a real Colombian LegalTech app. An **XGBoost** classifier flags judicial processes at risk of legal-term expiry: the deadlines lawyers can't afford to miss. Trained on **synthetic data** (modelled on Colombian judicial business rules), it reaches **F1 = 0.89 / AUC-ROC = 0.91** and ships with the full stack: **MLflow** tracking + model registry, **FastAPI** serving, **Docker Compose**, **Prometheus + Grafana** monitoring and **GitHub Actions** CI/CD. Designed to plug into Abodi's backend as a future production feature.
 
