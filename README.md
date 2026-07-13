@@ -1,10 +1,15 @@
 # ⚡ Hi, I'm Sebastian
 
-**Data & AI builder / student** building dashboards, ETL pipelines, automation workflows and practical AI systems for founders and small teams — and explaining them clearly. Currently finishing my Data & AI Engineering degree.
+**Data & AI Engineer** building dashboards, ETL pipelines, automation workflows and practical AI systems, and explaining them clearly. Currently finishing my Data & AI Engineering degree at UAO.
 
 I like turning messy data, unclear processes and complex technical ideas into **clean insights, reliable systems and simple explanations**. Alongside my technical work, I teach Spanish online to international students, which has sharpened how I communicate, structure ideas and explain technical concepts to any level.
 
+🌐 **See it all live: [sebasbelmos.github.io](https://sebasbelmos.github.io)**
+
 <p align="left">
+  <a href="https://sebasbelmos.github.io">
+    <img src="https://img.shields.io/badge/Portfolio-C9A24B?style=for-the-badge&logo=githubpages&logoColor=black" alt="Portfolio">
+  </a>
   <a href="https://www.linkedin.com/in/sebasbelmos/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
@@ -22,7 +27,7 @@ I like turning messy data, unclear processes and complex technical ideas into **
 - Build **data pipelines** and apply practical ML/statistics concepts from university and portfolio projects.
 - Build **AI orchestration and automation workflows** with **n8n, Claude Code, Cursor, ChatGPT and prompt engineering** to reduce manual, repetitive work.
 - Use **multi-agent workflows** with documentation and human-in-the-loop review to prototype, debug and document faster.
-- Explain technical ideas clearly — a teaching habit I bring to docs and dashboards.
+- Explain technical ideas clearly, a teaching habit I bring to docs and dashboards.
 
 ---
 
@@ -35,7 +40,7 @@ I like turning messy data, unclear processes and complex technical ideas into **
 
 End-to-end GeoAI system that estimates air pollution (**NO₂, SO₂, O₃**) across ~**380 km²** of Cali, Colombia. The pipeline combines RemoteCLIP + sparse autoencoders, a bidirectional ConvLSTM and 3D ST-Kriging residual correction over a **1,920-cell grid**, with T+1 / T+3 / T+7 day forecasts and uncertainty quantification. University final project, built by a **team of 3**.
 
-**My role:** software architecture, FastAPI backend (15 REST endpoints), React + Leaflet frontend visualisation (1,920 cells rendered on canvas), Docker multi-stage build, pytest suite, DevOps, documentation and Hugging Face Spaces deployment, with hands-on exposure to the project's geospatial, statistical and ML components.
+**My role:** the **data engineering** (ingesting 5 satellite/ground sources into Zarr/Parquet, with an MD5-verified manifest of **74,439 files / 108 GB**), software architecture, FastAPI backend (15 REST endpoints), React + Leaflet frontend (1,920 cells rendered on canvas), Docker multi-stage build, pytest suite, DevOps, documentation and Hugging Face Spaces deployment, with hands-on exposure to the geospatial, statistical and ML components.
 
 **Highlights**
 - **R² = 0.807** (spatial LOO-CV for SO₂ + O₃, after residual correction).
@@ -91,41 +96,41 @@ ETL and analytics workflow over **50,000 candidate records**: SQLAlchemy-based i
 
 ---
 
-### [Abodi ML — Legal-Term Risk Predictor](https://github.com/SEBASBELMOS/abodi_ml)
+### [Abodi ML · Legal-Term Risk Predictor](https://github.com/SEBASBELMOS/abodi_ml)
 > *Flags court cases at risk of missing legal deadlines, so lawyers don't.*
 
-End-to-end **MLOps** module for **Abodi**, a real Colombian LegalTech app. An **XGBoost** classifier flags judicial processes at risk of legal-term expiry — the deadlines lawyers can't afford to miss. Trained on **synthetic data** (modelled on Colombian judicial business rules), it reaches **F1 = 0.89 / AUC-ROC = 0.91** and ships with the full stack: **MLflow** tracking + model registry, **FastAPI** serving, **Docker Compose**, **Prometheus + Grafana** monitoring and **GitHub Actions** CI/CD. Designed to plug into Abodi's backend as a future production feature.
+End-to-end **MLOps** module for **Abodi**, a real Colombian LegalTech app. An **XGBoost** classifier flags judicial processes at risk of legal-term expiry: the deadlines lawyers can't afford to miss. Trained on **synthetic data** (modelled on Colombian judicial business rules), it reaches **F1 = 0.89 / AUC-ROC = 0.91** and ships with the full stack: **MLflow** tracking + model registry, **FastAPI** serving, **Docker Compose**, **Prometheus + Grafana** monitoring and **GitHub Actions** CI/CD. Designed to plug into Abodi's backend as a future production feature.
 
 **Tech:** Python · XGBoost · scikit-learn · FastAPI · MLflow · Docker · Prometheus · Grafana · GitHub Actions
 
 ---
 
 ### More projects & contributions
-- **[DeutschLernen](https://github.com/SEBASBELMOS/deutschlernen)** — Full-stack AI web app for learning German: Express backend, vanilla-JS frontend, LLM-powered chat & correction, AssemblyAI voice input and a Leitner spaced-repetition system.
-- **[Sports Data API (Neo4j)](https://github.com/SEBASBELMOS/sports-graph-api)** — Node.js REST API on a Neo4j graph database, **+40% query efficiency**.
-- **Datathon del Pacífico** — *finalists*, analysing Cali's MIO public-transport data for operational efficiency.
-- **JurisIntel (LegalTech, volunteer)** — NLP pipelines for legal-document analysis, case-monitoring automation and an AI legal chatbot.
-- **[F1 Lap Time Analysis](https://github.com/SEBASBELMOS/F1-Analysis-Project)** — Streamlit dashboard on 2023 Monza GP telemetry.
+- **[DeutschLernen](https://github.com/SEBASBELMOS/deutschlernen):** Full-stack AI web app for learning German: Express backend, vanilla-JS frontend, LLM-powered chat & correction, AssemblyAI voice input and a Leitner spaced-repetition system.
+- **[Sports Data API (Neo4j)](https://github.com/SEBASBELMOS/sports-graph-api):** Node.js REST API on a Neo4j graph database, **+40% query efficiency**.
+- **Datathon del Pacífico:** *finalists*, analysing Cali's MIO public-transport data for operational efficiency.
+- **JurisIntel (LegalTech, volunteer):** NLP pipelines for legal-document analysis, case-monitoring automation and an AI legal chatbot.
+- **[F1 Lap Time Analysis](https://github.com/SEBASBELMOS/F1-Analysis-Project):** Streamlit dashboard on 2023 Monza GP telemetry.
 
 ---
 
 ## 🧰 Core Stack
 
-**Core Data & Analytics** — Python · Pandas · NumPy · SQL · PostgreSQL · ETL · Apache Airflow · Data Warehousing (Star Schema) · Data Cleaning · Dashboarding · Documentation
+**Core Data & Analytics:** Python · Pandas · NumPy · SQL · PostgreSQL · ETL · Apache Airflow · Data Warehousing (Star Schema) · Data Cleaning · Dashboarding · Documentation
 
-**Business Intelligence** — Power BI · Looker Studio · KPI Reporting · Dashboard Design · Data Storytelling
+**Business Intelligence:** Power BI · Looker Studio · KPI Reporting · Dashboard Design · Data Storytelling
 
-**Hands-on Exposure** — Machine Learning · Statistics · Deep Learning · Geospatial Data · Remote Sensing · React · TypeScript · Node.js · Neo4j · Apache Kafka · Docker
+**Hands-on Exposure:** Machine Learning · Statistics · Deep Learning · Geospatial Data · Remote Sensing · React · TypeScript · Node.js · Neo4j · Apache Kafka · Docker
 
-**Backend, Frontend & Deployment** — FastAPI · GCP · AWS · GitHub · Hugging Face Spaces
+**Backend, Frontend & Deployment:** FastAPI · GCP · AWS · GitHub · Hugging Face Spaces
 
-**AI Orchestration & Automation** — n8n · Claude Code · Cursor · ChatGPT · Prompt Engineering · Multi-agent workflows
+**AI Orchestration & Automation:** n8n · Claude Code · Cursor · ChatGPT · Prompt Engineering · Multi-agent workflows
 
 ---
 
 ## 🗣️ Teaching & Communication
 
-I teach Spanish online to international students in English, Spanish and beginner-friendly German. It's made me good at breaking complex ideas into clear steps, adapting to different levels and communicating across cultures — the same skills I bring to documentation, dashboards and client-facing work.
+I teach Spanish online to international students in English, Spanish and beginner-friendly German. It's made me good at breaking complex ideas into clear steps, adapting to different levels and communicating across cultures: the same skills I bring to documentation, dashboards and client-facing work.
 
 ---
 
@@ -146,9 +151,9 @@ Data analytics & BI dashboards · ETL and data pipelines · workflow automation 
 
 ## 🌍 Languages
 
-- **Spanish** — Native
-- **English** — C2 (EF SET)
-- **German** — A2, currently learning
+- **Spanish:** Native
+- **English:** C2 (EF SET)
+- **German:** A2, currently learning
 
 ---
 
@@ -156,5 +161,6 @@ Data analytics & BI dashboards · ETL and data pipelines · workflow automation 
 
 Happy to connect if you're into data, automation, AI tooling, education or collaboration.
 
+**Portfolio:** [sebasbelmos.github.io](https://sebasbelmos.github.io)  
 **LinkedIn:** [linkedin.com/in/sebasbelmos](https://www.linkedin.com/in/sebasbelmos/)  
 **YouTube:** [YouTube Channel](https://www.youtube.com/channel/UCeYaQhjA-N6YVd6RNTdhBeA)
