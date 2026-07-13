@@ -4,8 +4,6 @@
 
 I like turning messy data, unclear processes and complex technical ideas into **clean insights, reliable systems and simple explanations**. Alongside my technical work, I teach Spanish online to international students, which has sharpened how I communicate, structure ideas and explain technical concepts to any level.
 
-🌐 **See it all live: [sebasbelmos.github.io](https://sebasbelmos.github.io)**
-
 <p align="left">
   <a href="https://sebasbelmos.github.io">
     <img src="https://img.shields.io/badge/Portfolio-C9A24B?style=for-the-badge&logo=githubpages&logoColor=black" alt="Portfolio">
