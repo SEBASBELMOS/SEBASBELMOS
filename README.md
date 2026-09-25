@@ -2,7 +2,9 @@
 
 **Data & AI Engineer** building dashboards, ETL pipelines, automation workflows and practical AI systems, and explaining them clearly. Currently finishing my Data & AI Engineering degree at UAO.
 
-I like turning messy data, unclear processes and complex technical ideas into **clean insights, reliable systems and simple explanations**. Alongside my technical work, I teach Spanish online to international students, which has sharpened how I communicate, structure ideas and explain technical concepts to any level.
+I like turning messy data, unclear processes and complex technical ideas into **clean insights, reliable systems and simple explanations**. Alongside my technical work, I have taught 700+ Spanish lessons on Preply to international students, which has sharpened how I communicate, structure ideas and explain technical concepts to any level.
+
+I help **creators, online education businesses and digital teams** connect their data, build dashboards and automate recurring tasks. **[Discuss your project →](https://sebasbelmos.github.io/#contact)**
 
 <p align="left">
   <a href="https://sebasbelmos.github.io">
@@ -49,10 +51,28 @@ End-to-end GeoAI system that estimates air pollution (**NO₂, SO₂, O₃**) ac
 
 ---
 
+### [NYC Taxi Lakehouse](https://github.com/SEBASBELMOS/nyc-taxi-lakehouse)
+> *NYC taxi trips, taken from a public source into a data lake and made queryable on several platforms.*
+
+University group project: a lakehouse pipeline that downloads the **NYC Yellow Taxi** data, stores it as Parquet in **MinIO**, registers **Apache Iceberg** tables in a **Nessie** catalogue and distributes them to **Azure ADLS** and **ClickHouse** with **dlt**, processing in PyArrow batches. **3,475,226 rows** validated across the pipeline stages, with a verification script for each stage.
+
+**Tech:** Python · dlt · PyArrow · MinIO · Apache Iceberg · Nessie · Azure ADLS · ClickHouse · Docker Compose
+
+---
+
+### [SaludRed](https://github.com/SEBASBELMOS/saludred)
+> *One shared view to coordinate hospital beds, requests and availability across a care network.*
+
+University group project: a **FastAPI** and **PostgreSQL** system for coordinating beds across an EPS/IPS network, with role-based access, change history, an **HL7 FHIR R4** integration and a web interface connected to the API. Flow: check capacity → create a request → assign a bed → review the history. Built with **synthetic data only**; not a system in clinical use.
+
+**Tech:** Python · FastAPI · PostgreSQL · HL7 FHIR R4 · Docker
+
+---
+
 ### [Spotify Analytics ETL Pipeline](https://github.com/SEBASBELMOS/spotify-analytics-etl-pipeline)
 > *Turned 114k+ messy music records into clean dashboards on song and award trends.*
 
-Production-ready ETL pipeline integrating **114,000+ Spotify tracks** and **4,810 Grammy records** into a unified analytics platform. Automated extraction, cleaning and transformation with **Apache Airflow** (daily scheduling, monitoring, error handling), deployed on **GCP** with Docker and PostgreSQL. Reduced duplicate records by **28.6%** and generated **81,941 enriched entries**, surfaced through Power BI dashboards.
+ETL pipeline integrating **114,000+ Spotify tracks** and **4,810 Grammy records** into a unified analytics platform. Automated extraction, cleaning and transformation with **Apache Airflow** (daily scheduling, monitoring, error handling), deployed on **GCP** with Docker and PostgreSQL. Reduced duplicate records by **28.6%** and generated **81,941 enriched entries**, surfaced through Power BI dashboards.
 
 **Tech:** Python · Apache Airflow · PostgreSQL · GCP · Docker · Power BI
 
@@ -61,7 +81,7 @@ Production-ready ETL pipeline integrating **114,000+ Spotify tracks** and **4,81
 ### [Global Happiness Prediction Pipeline](https://github.com/SEBASBELMOS/world-happiness-ml-pipeline)
 > *A model that predicts how happy a country is from its economic and social data.*
 
-End-to-end ML pipeline predicting national happiness scores across **164 countries** (World Happiness Report 2015–2019). Evaluated four regression models and selected **Random Forest (R² = 0.8639, RMSE = 0.415)**, with a real-time **Apache Kafka** streaming architecture processing predictions at sub-second latency and PostgreSQL audit trails capturing inputs and outputs.
+End-to-end ML pipeline predicting national happiness scores across **164 countries** (World Happiness Report 2015–2019). Evaluated four regression models and selected **Random Forest (R² = 0.8639, RMSE = 0.415)**, with an **Apache Kafka** streaming architecture for prediction events and PostgreSQL audit trails capturing inputs and outputs.
 
 **Tech:** Python · scikit-learn · Apache Kafka · PostgreSQL · Docker · Pandas
 
@@ -104,10 +124,13 @@ End-to-end **MLOps** module for **Abodi**, a real Colombian LegalTech app. An **
 ---
 
 ### More projects & contributions
-- **[DeutschLernen](https://github.com/SEBASBELMOS/deutschlernen):** Full-stack AI web app for learning German: Express backend, vanilla-JS frontend, LLM-powered chat & correction, AssemblyAI voice input and a Leitner spaced-repetition system.
-- **[Sports Data API (Neo4j)](https://github.com/SEBASBELMOS/sports-graph-api):** Node.js REST API on a Neo4j graph database, **+40% query efficiency**.
-- **Datathon del Pacífico:** *finalists*, analysing Cali's MIO public-transport data for operational efficiency.
+- **BetterLife Coaching (project-based):** personal-finance MVP with income and expense tracking, visual reports, and workflow and UX support for its alpha version.
 - **JurisIntel (LegalTech, volunteer):** NLP pipelines for legal-document analysis, case-monitoring automation and an AI legal chatbot.
+- **Bilbao2 (project-based):** lead intake, qualification and routing automations with n8n, Typeform, ActiveCampaign and a CRM.
+- **[EchoForm](https://github.com/SEBASBELMOS/echoform) (paused):** turns a long-form transcript into an editable, multichannel content package with mandatory human review. MVP completed before the pause, with 46 unit/integration tests.
+- **[DeutschLernen](https://github.com/SEBASBELMOS/deutschlernen):** Full-stack AI web app for learning German: Express backend, vanilla-JS frontend, LLM-powered chat & correction, AssemblyAI voice input and a Leitner spaced-repetition system.
+- **[Sports Data API (Neo4j)](https://github.com/SEBASBELMOS/sports-graph-api):** Node.js REST API on a Neo4j graph database for sports data.
+- **Datathon del Pacífico:** *finalists*, analysing Cali's MIO public-transport data for operational efficiency.
 - **[F1 Lap Time Analysis](https://github.com/SEBASBELMOS/F1-Analysis-Project):** Streamlit dashboard on 2023 Monza GP telemetry.
 
 ---
@@ -152,6 +175,7 @@ Data analytics & BI dashboards · ETL and data pipelines · workflow automation 
 - **Spanish:** Native
 - **English:** C2 (EF SET)
 - **German:** A2, currently learning
+- **Portuguese:** A2
 
 ---
 
@@ -159,6 +183,7 @@ Data analytics & BI dashboards · ETL and data pipelines · workflow automation 
 
 Happy to connect if you're into data, automation, AI tooling, education or collaboration.
 
+**Email:** sebasbelmosdev@gmail.com  
 **Portfolio:** [sebasbelmos.github.io](https://sebasbelmos.github.io)  
 **LinkedIn:** [linkedin.com/in/sebasbelmos](https://www.linkedin.com/in/sebasbelmos/)  
 **YouTube:** [YouTube Channel](https://www.youtube.com/channel/UCeYaQhjA-N6YVd6RNTdhBeA)
