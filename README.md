@@ -54,7 +54,7 @@ End-to-end GeoAI system that estimates air pollution (**NO₂, SO₂, O₃**) ac
 ### [NYC Taxi Lakehouse](https://github.com/SEBASBELMOS/nyc-taxi-lakehouse)
 > *NYC taxi trips, taken from a public source into a data lake and made queryable on several platforms.*
 
-University group project: a lakehouse pipeline that downloads the **NYC Yellow Taxi** data, stores it as Parquet in **MinIO**, registers **Apache Iceberg** tables in a **Nessie** catalogue and distributes them to **Azure ADLS** and **ClickHouse** with **dlt**, processing in PyArrow batches. **3,475,226 rows** validated across the pipeline stages, with a verification script for each stage.
+A university project I built end to end: a lakehouse pipeline that downloads the **NYC Yellow Taxi** data, stores it as Parquet in **MinIO**, registers **Apache Iceberg** tables in a **Nessie** catalogue and distributes them to **Azure ADLS** and **ClickHouse** with **dlt**, processing in PyArrow batches. **3,475,226 rows** validated across the pipeline stages, with a verification script for each stage.
 
 **Tech:** Python · dlt · PyArrow · MinIO · Apache Iceberg · Nessie · Azure ADLS · ClickHouse · Docker Compose
 
@@ -63,7 +63,7 @@ University group project: a lakehouse pipeline that downloads the **NYC Yellow T
 ### [SaludRed](https://github.com/SEBASBELMOS/saludred)
 > *One shared view to coordinate hospital beds, requests and availability across a care network.*
 
-University group project: a **FastAPI** and **PostgreSQL** system for coordinating beds across an EPS/IPS network, with role-based access, change history, an **HL7 FHIR R4** integration and a web interface connected to the API. Flow: check capacity → create a request → assign a bed → review the history. Built with **synthetic data only**; not a system in clinical use.
+A university project I built end to end: a **FastAPI** and **PostgreSQL** system for coordinating beds across an EPS/IPS network, with role-based access, change history, an **HL7 FHIR R4** integration and a web interface connected to the API. Flow: check capacity → create a request → assign a bed → review the history. Built with **synthetic data only**; not a system in clinical use.
 
 **Tech:** Python · FastAPI · PostgreSQL · HL7 FHIR R4 · Docker
 
@@ -153,6 +153,8 @@ End-to-end **MLOps** module for **Abodi**, a real Colombian LegalTech app. An **
 
 I teach Spanish online to international students in English, Spanish and beginner-friendly German. It's made me good at breaking complex ideas into clear steps, adapting to different levels and communicating across cultures: the same skills I bring to documentation, dashboards and client-facing work.
 
+Previously, I built a bilingual music-content brand, Música 4 Soul, to 153K+ TikTok followers (past project, now inactive).
+
 ---
 
 ## 🧠 Currently Sharpening
@@ -167,6 +169,14 @@ I teach Spanish online to international students in English, Spanish and beginne
 ## 🤝 Open to Collaborate On
 
 Data analytics & BI dashboards · ETL and data pipelines · workflow automation · AI orchestration productivity tools · data projects with practical ML/statistics components · geospatial data visualisation · educational content around data, AI and technology.
+
+---
+
+## 🎓 Education & Credentials
+
+- **Data & AI Engineering:** Universidad Autónoma de Occidente · 2023–2026
+- **DS4A · Data Analytics, with honours:** Correlation One · 2022 · [view credential](https://www.credential.net/2217d97b-4f00-4bae-bd3c-d862c8e89fa8#acc.smEH7PVl)
+- **AI Bootcamp:** Universidad Tecnológica de Pereira · 2024
 
 ---
 
