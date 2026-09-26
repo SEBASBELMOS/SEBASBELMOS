@@ -157,15 +157,6 @@ Previously, I built a bilingual music-content brand, Música 4 Soul, to 153K+ Ti
 
 ---
 
-## 🧠 Currently Sharpening
-
-- Data modelling, SQL and analytics workflows.
-- Production habits: testing, documentation, deployment and maintainability.
-- Practical ML/statistics understanding from university and portfolio projects.
-- AI orchestration workflows: using multi-agent systems, documentation and human-in-the-loop review to plan, prototype, debug and ship faster.
-
----
-
 ## 🤝 Open to Collaborate On
 
 Data analytics & BI dashboards · ETL and data pipelines · workflow automation · AI orchestration productivity tools · data projects with practical ML/statistics components · geospatial data visualisation · educational content around data, AI and technology.
