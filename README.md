@@ -105,10 +105,10 @@ ETL and analytics workflow over **50,000 candidate records**: SQLAlchemy-based i
 
 ---
 
-### [Higher Education Graduates in Colombia](https://lookerstudio.google.com/reporting/fbf76da4-9963-4152-937b-44ca32ae93b8/page/p_uounofjj1c)
-> *An interactive dashboard showing what and where Colombians graduate.*
+### [Higher Education Graduates in Colombia](https://github.com/SEBASBELMOS/colombia-graduates-dashboard)
+> *A dashboard showing what and where Colombians graduate.*
 
-**[Live Looker Studio dashboard](https://lookerstudio.google.com/reporting/fbf76da4-9963-4152-937b-44ca32ae93b8/page/p_uounofjj1c)** on official **SNIES / datos.gov.co** data, analysing Colombian higher education graduates from **2016 to 2020** by field of knowledge, education level and department. ([source repo](https://github.com/SEBASBELMOS/colombia-graduates-dashboard))
+**Looker Studio dashboard** on official **SNIES / datos.gov.co** data, analysing **2,324,900** Colombian higher-education graduates from **2016 to 2020** by field of knowledge, education level and department. DS4A final project, built with Jimmy Moreno (team of 2). The source dataset was later removed from datos.gov.co, so the live report no longer loads: see the **[archived report (PDF)](https://github.com/SEBASBELMOS/colombia-graduates-dashboard/blob/main/Proyecto_Final_-_Equipo_113.pdf)**.
 
 **Tech:** Looker Studio · SNIES / datos.gov.co · Data Visualisation
 
